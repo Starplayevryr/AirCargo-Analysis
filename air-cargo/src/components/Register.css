@@ -1,0 +1,151 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Register page specific */
+  .register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    overflow: hidden;
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    padding: 40px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .card .form-control {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .card .btn {
+    border-radius: 10px;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .card .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .card .btn:active {
+    transform: translateY(0);
+  }
+  
+  /* Hover effect for the link */
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animation for the form */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Title styling */
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Role select styling */
+  .select-role {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Animation for the title */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Text link for already have an account */
+  p {
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p a {
+    color: #007bff;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button for mobile responsiveness */
+  @media (max-width: 576px) {
+    .card-body {
+      padding: 30px;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    .card .form-control {
+      font-size: 1rem;
+    }
+  }
+  

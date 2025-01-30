@@ -1,0 +1,18 @@
+
+
+.custom-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  
+  .custom-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .table .btn {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #111; /* Darker background color for navbar */
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  color: #f8f9fa; /* Light color for site name */
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-link {
+  color: #f8f9fa; /* Light text color */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  color: #ffffff; /* Pure white on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

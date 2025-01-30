@@ -1,0 +1,121 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles only for login-page */
+  .login-page .card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Reduced width */
+    max-width: 350px; /* Adjust this value as needed */
+    transition: transform 0.3s ease;
+  }
+  
+  .login-page .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .login-page .card-body {
+    padding: 40px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Form control styling */
+  .login-page .form-control {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .login-page .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styling */
+  .login-page .btn {
+    border-radius: 10px;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .login-page .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .login-page .btn:active {
+    transform: translateY(0);
+  }
+  
+  /* Text link styling */
+  .login-page a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-page a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animation for the form */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Title styling */
+  .login-page h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Animation for the title */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Button for mobile responsiveness */
+  @media (max-width: 576px) {
+    .login-page .card-body {
+      padding: 30px;
+    }
+  
+    .login-page .card {
+      width: 90%;
+    }
+  
+    .login-page h2 {
+      font-size: 1.75rem;
+    }
+  
+    .login-page .form-control {
+      font-size: 1rem;
+    }
+  }
+  

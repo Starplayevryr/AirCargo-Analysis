@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* For larger screens */
+.home-background {
+  /*  background-image: url('/images/background.png');*/
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: rgb(17, 15, 15);
+    padding-top: 80px;
+    text-align: center;
+    padding: 20px;
+  }
+  .container {
+    max-width: 35%;  /* Ensures the container spans full width */
+    padding-left: 0;  /* Remove default padding */
+    padding-right: 0;  /* Remove default padding */
+  }
+  
+  .card-img-top {
+    height: 350px;  /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .video-section {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .video-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Custom Video Height */
+  .custom-video {
+    width: 100%; /* Full width */
+    height: 500px; /* Adjust the height here as needed */
+    object-fit: cover; /* Ensures the video covers the area without distortion */
+  }
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 768px) {
+    .home-background {
+      padding-top: 60px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .home-background {
+      padding-top: 50px; /* Adjust padding for very small screens */
+      background-size: cover; /* Ensure image covers smaller screens properly */
+    }
+  
+    .container {
+      padding: 10px; /* Make container responsive */
+    }
+  
+    h1 {
+      font-size: 1.5rem; /* Adjust font size for small screens */
+    }
+  
+    p {
+      font-size: 1rem; /* Adjust font size for small screens */
+    }
+  }
+  

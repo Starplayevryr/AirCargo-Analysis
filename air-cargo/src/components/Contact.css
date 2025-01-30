@@ -1,0 +1,74 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .contact-container .card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-container .card-body {
+    padding: 30px;
+  }
+  
+  .contact-container .form-label {
+    font-weight: bold;
+  }
+  
+  .contact-container .form-control {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-container .btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-container .btn:hover {
+    background-color: #555;
+  }
+  
