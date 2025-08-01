@@ -2,7 +2,9 @@
   "name": "trialconnect",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+   "scripts": {
+    "start": "node app.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
