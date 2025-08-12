@@ -132,7 +132,7 @@ npm start
 ![Dashboard Screenshot](assests/Home.png)
 ![Dashboard Screenshot](assests/Dash2.png)
 ![Dashboard Screenshot](assests/route.png)
-
+![Dashboard Screenshot](assests/passenger.png)
 ---
 
 ## 🔮 Future Scope
