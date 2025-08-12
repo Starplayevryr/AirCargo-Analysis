@@ -127,8 +127,8 @@ npm start
 - Data Management Screens  
 - Route Visualization with Geomapping  
 - API Testing in Thunder Client  
+![Dashboard Screenshot](assets/Screenshot%202025-01-31%20181008.png)
 
-!(assets/Screenshot 2025-01-31 181008.png)
 ---
 
 ## 🔮 Future Scope
