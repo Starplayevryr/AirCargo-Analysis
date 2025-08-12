@@ -60,24 +60,8 @@ The system streamlines **cargo booking, tracking, route management, and analytic
 ---
 
 ## 📂 Project Structure
-
-\`\`\`
-AirCargo-Analysis/
-│
-├── backend/           # Node.js + Express API
-│   ├── models/        # Sequelize models
-│   ├── routes/        # API routes
-│   ├── controllers/   # Business logic
-│   └── config/        # DB connection & environment config
-│
-├── frontend/          # React.js frontend
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Dashboard & management screens
-│   └── services/      # API calls
-│
-└── README.md
-\`\`\`
-
+---
+![Dashboard Screenshot](assests/Structure.png)
 ---
 
 ## 🚀 Installation & Setup
