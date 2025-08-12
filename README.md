@@ -46,7 +46,7 @@ The system streamlines **cargo booking, tracking, route management, and analytic
 - Sequelize ORM  
 
 **Database:**  
-- MySQL / PostgreSQL  
+- MySQL Workbench 
 
 **Security:**  
 - JWT Authentication  
